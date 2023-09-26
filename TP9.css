@@ -1,0 +1,452 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+ }
+ 
+   
+ 
+ 
+ nav{
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .toggle{
+   display: none;
+ }
+ /* nav h2{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    
+ } */
+ nav .onglets{
+    margin-top: 3px;
+    margin-left: 400px;
+    text-decoration:none;
+ }
+ nav .onglets a{
+    text-decoration: solid;
+    color: #000;
+    margin-right: 25px;
+    font-size: 20px;
+ }
+ nav button{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ 
+     .card{
+         background-color: bisque;
+         padding: 4%;
+         display: flex;
+         justify-content: space-between;
+         
+      }
+      .card .order1{
+       padding-right: 40%;
+       right: 0%;
+      }
+      .card .order2{
+       display: flex;
+       padding-left: 10%;
+      }
+      .order4{
+         font-size: 30px;
+      }
+      .order3{
+         font-size: 40px;
+         padding: 30px;
+         
+         margin: 10px;
+      }
+      .card .order2 .element{
+         position:absolute;
+         z-index: 1;
+         right: 20%;
+         margin-bottom: 20%;
+      }
+      .card .order2 .element1{
+          position: absolute;
+          z-index: 2;
+          right: 15%;
+          padding-top: 3%;
+          right: 10%;
+          padding-left: 0%;
+      }
+      .card .order2 .element2{
+       position: absolute;
+       z-index: 3;
+       right: 13%;
+       padding-top:8%;
+       padding-right: 5%;
+   }
+ 
+   .card .order1 .button{
+             background-color: orangered;
+              padding: 10px 20px;
+             color: aliceblue;
+             border: none;
+             border-radius: 10px;
+             cursor: pointer;
+   }
+   .card .order1 .button1{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+   }
+   .section-feactured{
+      padding: 4.8rem 0 3.2rem 0;
+   }
+   .container{
+      padding: 3%;
+      
+   }
+   .heading-feactured-in{
+          align-items: center;
+          display: flex;
+          justify-content: center;
+   }
+   .order5{
+      display: flex;
+      justify-content: space-between;
+   }
+   .order6{
+      color: orange;
+      justify-content: center;
+      margin: 100px;
+   }
+   .order7{
+      font-size: 40px;
+      margin: 100px;
+      
+   }
+   .order8{
+    font-size: 60px;
+      color: rgb(100, 94, 94);
+   }
+   .order9{
+      font-size: 30px;
+      margin-top: 0%;
+   }
+    .order10{
+       /* display: flex; */
+       /* justify-content: space-between;
+       padding: 0%;
+       margin-left: 8%;
+       margin-right: 5%; */
+       width: 80%;
+       /* justify-content: center;
+       align-items: center; */
+       margin: 0 auto;
+       margin-bottom: 4rem;
+
+    }
+    .order-10-box{
+      width: 100%;
+      display: flex;
+      /* justify-self: center; */
+    }
+
+.section-left{
+   width: 50%;
+}
+.section-right{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
+
+    .section{
+    padding-left: 10%;
+    padding-right: 30%;
+    }
+    .section1{
+       font-size: 20px;
+    }
+    .section2{
+       padding-left: 30%;
+       padding-right: 10%;
+       }
+       .card0{
+         padding: 10px;
+         font-size: 40px ;
+         margin-top: 0%;
+       }
+    
+   .card1{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-weight: px;
+ }
+       .card2{
+          font-size: 40px;
+          margin-top: 0%;
+          display: flex;
+          justify-content: center;
+         padding: 100px;
+       }
+          .card3{
+             display: flex;
+             flex-direction: column;
+          }
+          .card4{
+             display: flex;
+             justify-content: space-between;
+             margin-left: 30px;
+             margin-right: 90px;
+             font-size: 15px;
+             font-weight: 15px;
+             
+             
+          }
+          .card5{
+             margin-left: 50px;
+             padding: 0.1em;
+             background-color: rgb(238, 248, 244);
+             font-size: 15px;
+             font-weight: 15px;
+          }
+          .card6{
+             margin-right: 0%;
+             margin-left: 10%;
+             padding: 0.1em;
+             background-color: rgb(242, 242, 246);
+          }
+          .card7{
+             margin-right: ;
+             padding: ;
+          }
+          .card8{
+             color: coral;
+             display: flex;
+             justify-content: center;
+             padding: 100px;
+          }
+          /* .card11{
+            margin-left: 20px ;
+            margin-right: 20px;
+          } */
+          /* .{
+            display: flex;
+            justify-content: right;
+            height: 10px;
+            width: 10px;
+            flex-wrap: wrap;
+          } */
+          .rel{
+             background-color: bisque;
+             display: flex;
+             justify-content: space-between;
+             justify-content: ;
+          }
+          .rel1{
+             display: flex;
+             justify-content: space-between;
+          }
+          .rel2{
+             margin-right: 20px;
+          }
+          .card9{
+             display: flex;
+          }
+          .card10{
+             display: flex;
+             justify-content: space-between;
+          }
+          .cover{
+             border: 1px solid fuchsia;
+             border-radius: 50%;
+             font-size: px;
+             
+             width: px;
+             height: 100px;
+          }
+          .cover1{
+             display: flex;
+             justify-content: space-between;
+          }
+          .cover2{
+    
+             display: flex;
+             justify-content: space-between;
+             margin-left: 20%;
+             margin-right: 20%;
+          }
+          .content{
+             display: flex;
+             justify-content: space-between;
+             font-size: 20px;
+             margin-left: 5%;
+             margin-right: 5%;
+          }
+          .content1{
+             padding: 10px 20px;
+             background-color: orangered;
+             color: aliceblue;
+             border: none;
+             border-radius: 10px;
+             cursor: pointer;
+          }
+          .content2{
+             display: flex;
+             justify-content: center;
+             font-size:0 ;
+             padding: 100px;
+          }
+          .cover3{
+             display: flex;
+             justify-content: space-between;
+             margin:50px ;
+             padding: 50px;
+             background-color: rgb(240, 124, 82);
+          }
+          .cover4{
+             margin-right: 200px;
+             font-size: 30px;
+          }
+          .OP{
+            width: 200px;
+          }
+          .i {
+            color:rgb(240, 124, 82) ;
+            padding: 30px ;
+          }
+          .Z {
+            width:  300px;
+            
+          }
+          .Y {
+            width: 200px;
+          }
+          .L{
+            width: 200px;
+            
+          }
+          .A {
+         
+         width: 400px;;
+          }
+          .B {
+            width: 200px;
+          }
+          .C{
+            width: 200px;
+
+          }
+          .D{
+            width: 200px;
+
+          }
+          .E{
+            width: 200px;
+
+          }
+          .F{
+            width: 200px;
+
+          }
+          .G{
+            width: 200px;
+
+          }
+          .H{
+            width: 200px;
+
+          }
+          .I{
+            width: 200px;
+          }
+          .bloc {
+            display: flex;
+            padding: 20px;
+          }bootstrap-5.3.1-dist/cssbootstrap-5.3.1-dist/css
+          .BLOC{
+            
+          }
+          .O{
+            width: 50px;
+          }
+          .P{
+            width: 50px;
+          }
+          .Q{
+            width: 50px;
+          }
+          .R{
+            width: 50px; 
+          }
+          .S{
+            width: 50px;
+          }
+          .T{
+            width: 50px;
+          }
+          .content3{
+             display: flex;
+             justify-content: space-between;
+          }
+          .content4{
+             margin-right: 20px;
+          }
+          .rel3{
+             padding-right: 20px;
+          }
+          footer{
+             display: flex;
+             justify-content: space-between;
+          }
+
+
+
+      @media sreen and(max-width:300px) {
+            header {
+               background: transparent;
+            }
+            .toggle{
+               display: block;
+               cursor: pointer;
+               position: relative;
+               z-index: 20;
+            }
+            .ouvrir{
+               display: block;
+            }
+            .fermer{
+               display: none;
+            }
+            .open .ouvrir{
+               display: none;
+            }
+            .open .fermer{
+               display: block;
+            }
+            .onglets{
+               position: absolute;
+               top: 0;
+               left: 0;
+               flex-direction: column;
+               padding: 2rem;
+               justify-content: space-around;
+               transform: translateX(-100%);
+               transition: transform 1s;
+
+            }
+            .open .onglets{
+               transform: translateX(0);
+            }
+         }
+         @media screen and (max-width:600px)
+         {
+            
+         }
